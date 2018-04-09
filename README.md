@@ -23,3 +23,8 @@ Segundo
 2 __Modelos__
   * $ rails generate model User name:string email:string
   * $ rails destroy model User
+
+3 __Migrasiones__
+  * $ rails db:migrate
+  * $ rails db:rollback
+  * $ rails db:migrate VERSION=0
