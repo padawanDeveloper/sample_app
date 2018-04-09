@@ -12,3 +12,14 @@ Empezando
 
 4 Si pasa el banco de pruebas, estará listo para ejecutar la aplicación en un servidor local:
   * rails server
+
+Segundo
+=====
+
+1 __Controladores__
+  * $ rails generate controller StaticPages home help
+  * $ rails destroy  controller StaticPages home help
+
+2 __Modelos__
+  * $ rails generate model User name:string email:string
+  * $ rails destroy model User
