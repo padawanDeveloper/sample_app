@@ -1,24 +1,14 @@
-# README
+Empezando
+====
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+1 Para comenzar con la aplicación, clone el repositorio y luego instale las gemas necesarias:
+  * $ bundle install --sin producción
 
-Things you may want to cover:
+2 Luego, migre la base de datos:
+  * $ rails db: migrar
 
-* Ruby version
+3 Finalmente, ejecute el conjunto de pruebas para verificar que todo esté funcionando correctamente:
+  * $ prueba de rieles
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+4 Si pasa el banco de pruebas, estará listo para ejecutar la aplicación en un servidor local:
+  * $ rails server
